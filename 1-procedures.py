@@ -62,6 +62,16 @@ def main():
     print("favorite_players:", len(favorite_players))
 
     # input()
+    age=input("How old are you? ")
+    if int(age) <= 19 and int(age) >= 13:
+        print("You ARE a teenager")
+    else:
+        print("You are not a teenager")
+
+    print("You entered:", age)
+
+    your_name=input("Enter your name: ")
+    print("Hello:", your_name)
 
     # range()
 
