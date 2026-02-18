@@ -50,6 +50,16 @@ def main():
     print("is_playing_game type:", type(is_playing_game))
 
     # len()
+    store_name="Cane Pole"
+    print(len(store_name))
+
+    if len(store_name) < 10:
+        print("Hey, you need a longer store name")
+    else:
+        print("Store name looks good")
+
+    favorite_players = ["Larry Bird", "Kobe Bryant", "Michael Jordan"] 
+    print("favorite_players:", len(favorite_players))
 
     # input()
 
