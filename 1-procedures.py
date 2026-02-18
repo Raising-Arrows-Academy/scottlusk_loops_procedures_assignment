@@ -29,9 +29,16 @@
 #
 # python 1-procedures.py
 
-def main():
-    pass 
+def average_score(total_points, games_played):
+    """
+    Gets the average score by dividing the games 
+    played by the total points and returns the
+    average score.
+    """
+    average_score=total_points / games_played
+    return average_score
 
+def main(): 
     # print() 
     print("Hello")
 
@@ -48,6 +55,10 @@ def main():
     print("total_points type:", type(total_points))
     print("games_played type:", type(games_played))
     print("is_playing_game type:", type(is_playing_game))
+
+    # Custom Function example
+    average=average_score(total_points, games_played)
+    print("average:", average)
 
     # len()
     store_name="Cane Pole"
